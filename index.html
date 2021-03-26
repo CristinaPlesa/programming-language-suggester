@@ -44,8 +44,22 @@
           <option value="usefulness">Usefulness and resources</option>
         </select>
       </div>
-      <div class="form-group">
-        <label for="question4">Is math a subject you enjoy learning about? If yes, what kind of math?</label><br>
+
+      <div class="question4">
+        <label for="question4">Is math a subject that interests you? If yes, what kind of math?</label><br>
+        <div class="form-check">
+          <label class="yes-input" for="mathresult1">
+          <input class="form-check-input" type="radio" name="mathQuestion" id="mathresult1">
+            Yes
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="no-input" for="math-result2">
+          <input class="form-check-input" type="radio" name="mathQuestion" id="mathQuestion2" checked>
+            No
+          </label>
+        </div>
+<!-- 
         <select class="form-select" id="question4">
           <option value="yes">Yes</option>
           <option value="no">No</option>
@@ -54,7 +68,7 @@
           <option value="group">Group Theory</option>
           <option value="category">Category Theory</option>
         </select>
-      </div>
+      </div> -->
       <!-- Rewrite question4 select to be checkbox form input and within that, put radio buttons if user checks yes -->
       
       <div class="form-group">
