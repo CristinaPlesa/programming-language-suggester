@@ -8,9 +8,39 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Document</title>
+  <title>Programming Language Suggester</title>
 </head>
 <body>
-  
+  <div class="container">
+    <h1>Programming Language Survey</h1>
+
+    <p>Find which programming language is right for you! Answer each question below:</p>
+
+    <form>
+      <label for="question1">What stage of computer programming are you in?</label>
+      <select id="question1">
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+        <option value="expert">Expert</option>
+      </select>
+      <label for="question2">Out of these options, which computer programming work interests you the most? (select an option to see more information)</label>
+      <select id="question2">
+        <option value="website">Website Design</option>
+        <option value="video-game">Video Game Developer</option>
+        <option value="mobile-app">Mobile App Developer</option>
+        <option value="devOps">DevOps</option>
+        <option value="systems">Systems Level Programming</option>
+      </select>
+      <label for="question3">Which element of a website are you first drawn to during your initial visit?</label>
+      <select id="question3">
+        <option value="front-end">Visual layout</option>
+        <option value="">User friendly capability</option>
+        <option value="expert">Usefulness and resources</option>
+      </select>
+
+      <button type="submit" class="btn">Submit Survey</button>
+    </form>
+  </div>
 </body>
 </html>
