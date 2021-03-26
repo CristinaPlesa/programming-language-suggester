@@ -17,46 +17,61 @@
     <p>Find which programming language is right for you! Fill out the survey below:</p>
 
     <form>
-      <label for="question1">What stage of computer programming are you in?</label>
-      <select id="question1">
-        <option value="beginner">Beginner</option>
-        <option value="intermediate">Intermediate</option>
-        <option value="advanced">Advanced</option>
-        <option value="expert">Expert</option>
-      </select>
-      <label for="question2">Out of these options, which computer programming work interests you the most? (select an option to see more information)</label>
-      <select id="question2">
-        <option value="website">Website Design</option>
-        <option value="video-game">Video Game Developer</option>
-        <option value="mobile-app">Mobile App Developer</option>
-        <option value="devOps">DevOps</option>
-        <option value="systems">Systems Level Programming</option>
-      </select>
-      <label for="question3">Which element of a website are you first drawn to during your initial visit?</label>
-      <select id="question3">
-        <option value="layout">Visual layout</option>
-        <option value="capability">User friendly capability</option>
-        <option value="usefulness">Usefulness and resources</option>
-      </select>
-      <label for="question4">Is math a subject you enjoy learning about? If yes, what kind of math?</label>
-      <select id="question4">
-        <option value="algebra">Algebra</option>
-        <option value="calculus">Calculus</option>
-        <option value="group">Group Theory</option>
-        <option value="category">Category Theory</option>
-      </select>
-      <label for="question5">Which animal would you want to be friends with, if given the chance?</label>
-      <select id="question5">
-        <option value="tiger">Tiger</option>
-        <option value="panda">Panda</option>
-        <option value="wolf">Wolf</option>
-        <option value="orangutan">Orangutan</option>
-        <option value="fox">Fox</option>
-        <option value="giraffe">Giraffe</option>
-      </select>
+      <div class="form-group">
+        <label for="question1">What stage of computer programming are you in?</label><br>
+        <select class="form-select" id="question1">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+          <option value="expert">Expert</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="question2">Out of these options, which computer programming work interests you the most? (select an option to see more information)</label><br>
+        <select class="form-select" id="question2">
+          <option value="website">Website Design</option>
+          <option value="video-game">Video Game Developer</option>
+          <option value="mobile-app">Mobile App Developer</option>
+          <option value="devOps">DevOps</option>
+          <option value="systems">Systems Level Programming</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="question3">Which element of a website are you first drawn to during your initial visit?</label><br>
+        <select class="form-select" id="question3">
+          <option value="layout">Visual layout</option>
+          <option value="capability">User friendly capability</option>
+          <option value="usefulness">Usefulness and resources</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="question4">Is math a subject you enjoy learning about? If yes, what kind of math?</label><br>
+        <select class="form-select" id="question4">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+          <option value="algebra">Algebra</option>
+          <option value="calculus">Calculus</option>
+          <option value="group">Group Theory</option>
+          <option value="category">Category Theory</option>
+        </select>
+      </div>
+      <!-- Rewrite question4 select to be checkbox form input and within that, put radio buttons if user checks yes -->
+      
+      <div class="form-group">
+        <label for="question5">Which animal would you want to be friends with, if given the chance?</label><br>
+        <select class="form-select" id="question5">
+          <option value="tiger">Tiger</option>
+          <option value="panda">Panda</option>
+          <option value="wolf">Wolf</option>
+          <option value="orangutan">Orangutan</option>
+          <option value="fox">Fox</option>
+          <option value="giraffe">Giraffe</option>
+        </select>
+      </div>
 
-      <button type="submit" class="btn">Submit Survey</button>
+      <button type="submit" class="btn btn-primary">Submit Survey</button>
     </form>
   </div>
+  <
 </body>
 </html>
