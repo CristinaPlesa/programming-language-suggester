@@ -1,3 +1,11 @@
 h2 {
   font-weight: bold;
 }
+
+#programming-result {
+  display: none;
+}
+
+#animal-result {
+  display: none;
+}

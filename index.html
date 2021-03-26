@@ -16,10 +16,10 @@
 
     <p>Find which programming language is right for you! Fill out the survey below:</p>
 
-    <form>
+    <form id="user-input">
       <div class="form-group">
-        <label for="question1">What stage of computer programming are you in?</label><br>
-        <select class="form-select" id="question1">
+        <label for="question-input1">What stage of computer programming are you in?</label><br>
+        <select class="form-select" id="question-input1">
           <option value="beginner">Beginner</option>
           <option value="intermediate">Intermediate</option>
           <option value="advanced">Advanced</option>
@@ -27,8 +27,8 @@
         </select>
       </div>
       <div class="form-group">
-        <label for="question2">Out of these options, which computer programming work interests you the most? (select an option to see more information)</label><br>
-        <select class="form-select" id="question2">
+        <label for="question-input2">Out of these options, which computer programming work interests you the most? (select an option to see more information)</label><br>
+        <select class="form-select" id="question-input2">
           <option value="website">Website Design</option>
           <option value="video-game">Video Game Developer</option>
           <option value="mobile-app">Mobile App Developer</option>
@@ -37,50 +37,50 @@
         </select>
       </div>
       <div class="form-group">
-        <label for="question3">Which element of a website are you first drawn to during your initial visit?</label><br>
-        <select class="form-select" id="question3">
+        <label for="question-input3">Which element of a website are you first drawn to during your initial visit?</label><br>
+        <select class="form-select" id="question-input3">
           <option value="layout">Visual layout</option>
           <option value="capability">User friendly capability</option>
           <option value="usefulness">Usefulness and resources</option>
         </select>
       </div>
 
-      <div class="question4">
+      <div class="form-group">
         <label for="question4">Is math a subject that interests you? If yes, what kind of math?</label><br>
         <div class="form-check">
           <label class="math-yes-input">
             <input type="radio" name="mathQuestion4" value="yes">
             Yes
           </label>
+          <div class="form-check1">
+            <label class="math-algebra-input">
+              <input type="radio" name="mathQuestion4" value="algebra" disabled>
+              Algebra
+            </label>
+          </div>
+          <div class="form-check1">
+            <label class="math-calculus-input">
+              <input type="radio" name="mathQuestion4" value="calculus" disabled>
+              Calculus
+            </label>
+          </div>
+          <div class="form-check1">
+            <label class="math-group-input">
+              <input type="radio" name="mathQuestion4" value="group theory" disabled>
+              Group Theory
+            </label>
+          </div>
+          <div class="form-check1">
+            <label class="math-category-input">
+              <input type="radio" name="mathQuestion4" value="category theory" disabled>
+              Category Theory
+            </label>
+          </div>
         </div>
         <div class="form-check">
           <label class="math-no-input">
-          <input type="radio" name="mathQuestion4" value="no" checked>
+            <input type="radio" name="mathQuestion4" value="no" checked>
             No
-          </label>
-        </div>
-        <div class="form-check">
-          <label class="math-algebra-input">
-            <input type="radio" name="mathQuestion4" value="algebra" disabled>
-              Algebra
-          </label>
-        </div>
-        <div class="form-check">
-          <label class="math-calculus-input">
-            <input type="radio" name="mathQuestion4" value="calculus" disabled>
-              Calculus
-          </label>
-        </div>
-        <div class="form-check">
-          <label class="math-group-input">
-            <input type="radio" name="mathQuestion4" value="group theory" disabled>
-              Group Theory
-          </label>
-        </div>
-        <div class="form-check">
-          <label class="math-category-input">
-          <input type="radio" name="mathQuestion4" value="category theory" disabled>
-            Category Theory
           </label>
         </div>
       </div>
@@ -100,7 +100,7 @@
       <button type="submit" class="btn btn-primary">Submit Survey</button>
     </form>
 
-    <div id="computer-programming-result">
+    <div id="programming-result">
       <div id="javascript-result">
         <h2>JavaScript</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
