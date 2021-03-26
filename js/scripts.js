@@ -13,7 +13,11 @@ $(document).ready(function() {
     const userInput3 = $("#question-input3").val();
     const userInput5 = $("#question-input5").val();
 
-    // if ()
+    if ((userInput1==="beginner" || userInput1==="intermediate") && (userInput2==="website" || userInput2==="video-game" || userInput2==="mobile") && (userInput3==="layout" || userInput3==="usefulness") && (userInput5==="panda" || userInput5==="fox" || userInput5==="giraffe")){
+      $("#programming-result").hide();
+      $("#javascript-result").toggle();
+    }
+
     event.preventDefault();
   });
 });
