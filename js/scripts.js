@@ -1,4 +1,7 @@
 $(document).ready(function() {
+  $(".mathSecond").('disabled', true);
+  $("form-check1").css('opacity', '.2');
+  $()
   
   // $("")
   // const $("input:radio[name=mathQuestionInitial]:checked").val();
@@ -21,3 +24,5 @@ $(document).ready(function() {
     event.preventDefault();
   });
 });
+
+// too many possible combinations to account for, must think of an easier way to tally up points for each language.
