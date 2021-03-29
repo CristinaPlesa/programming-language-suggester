@@ -22,7 +22,7 @@ Survey form set up through JavaScript functions. This webpage is designed to tak
 
 ## Known Bugs
 
-* JavaScript submit function doesn't account for all possible combinations
+* JavaScript submit function doesn't account for all possible combinations.
 
 ## License
 

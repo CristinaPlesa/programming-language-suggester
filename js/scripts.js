@@ -21,12 +21,22 @@ $(document).ready(function(event) {
     const userInput4 = $("#question-input4").val();
     // const userInput5 = $("#question-input5").val();
 
-    if (userInput1==="beginner" || userInput2==="mobile" || userInput3==="visual" || userInput4==="algebra") {
+    if (userInput2==="dev-ops" || userInput3==="usefulness" || userInput4==="algebra") {
+      $("#bash-result").fadeToggle();
+    } else if (userInput1==="beginner" || userInput2==="mobile" || userInput3==="visual" || userInput4==="algebra") {
       $("#javascript-result").fadeToggle();
-      
+    } else if (userInput1==="intermediate" || userInput2==="video-game" || userInput4==="calculus") {
+      $("#c-sharp-result").fadeToggle();
+    } else if (userInput1==="advanced" || userInput2==="website" || userInput3==="user-friendly" || userInput4==="calculus") {
+      $("#rust-result")
+    } else if (userInput1==="expert" || userInput2==="systems" || userInput4==="group theory" || userInput4==="category theory") {
+      $("#haskell-result").fadeToggle();
+    } else {
+      $("#javascript-result").fadeToggle();
     }
     event.preventDefault();
   });
+
 });
 
 // too many possible combinations to account for, must think of an easier way to tally up points for each language.
