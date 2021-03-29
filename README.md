@@ -12,7 +12,7 @@
 
 ## Description
 
-Survey form webpage setup through JavaScript functions. It is designed to take user input and return a computer progamming language based on compatibility.
+Survey form set up through JavaScript functions. This webpage is designed to take user input and return a computer progamming language based on compatibility.
 
 ## Setup/Installation Requirements
 
@@ -22,7 +22,7 @@ Survey form webpage setup through JavaScript functions. It is designed to take u
 
 ## Known Bugs
 
-* 
+* JavaScript submit function doesn't account for all possible combinations
 
 ## License
 

@@ -2,8 +2,16 @@ h2 {
   font-weight: bold;
 }
 
-#programming-result {
+h3 {
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.programming-result {
   display: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #animal-result {
