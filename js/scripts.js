@@ -23,16 +23,22 @@ $(document).ready(function(event) {
 
     if (userInput2==="dev-ops" || userInput3==="usefulness" || userInput4==="algebra") {
       $("#bash-result").fadeToggle();
+      $("#end-message").fadeToggle();
     } else if (userInput1==="beginner" || userInput2==="mobile" || userInput3==="visual" || userInput4==="algebra") {
       $("#javascript-result").fadeToggle();
+      $("#end-message").fadeToggle();
     } else if (userInput1==="intermediate" || userInput2==="video-game" || userInput4==="calculus") {
       $("#c-sharp-result").fadeToggle();
+      $("#end-message").fadeToggle();
     } else if (userInput1==="advanced" || userInput2==="website" || userInput3==="user-friendly" || userInput4==="calculus") {
-      $("#rust-result")
+      $("#rust-result").fadeToggle();
+      $("#end-message").fadeToggle();
     } else if (userInput1==="expert" || userInput2==="systems" || userInput4==="group theory" || userInput4==="category theory") {
       $("#haskell-result").fadeToggle();
+      $("#end-message").fadeToggle();
     } else {
       $("#javascript-result").fadeToggle();
+      $("#end-message").fadeToggle();
     }
     event.preventDefault();
   });
